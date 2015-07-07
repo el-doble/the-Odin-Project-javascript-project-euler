@@ -3,7 +3,6 @@ function largestPrimeFactor(number) {
     for (i = 2; i <= num; i++) {
         if (num % i === 0) {
             primeFactor = i;
-            num = num / i;
             console.log(num);
         }
     }
